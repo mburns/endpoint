@@ -4,11 +4,13 @@ Playing with request inspection in ruby
 
 ## Installation
 
-* Have ruby installed
+* Have Ruby `v2.3+` installed
+* `gem install bundler`
 * `bundle install`
 
 ## Usage
 
+To start, `cd`  into the project directory and run ``
  * A command to start the application
  * A command to run the unit tests for your application
 
@@ -26,4 +28,4 @@ Playing with request inspection in ruby
 
 ## Example commands
 
-* curl/wget
+* `curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" "http://localhost:8080"`
